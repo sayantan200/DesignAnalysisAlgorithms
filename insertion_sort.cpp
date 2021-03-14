@@ -5,9 +5,9 @@ using namespace std;
 void i_sort(int a[],int n)
 {
     int j,i,key,c=0;
-    //cout<<"Array to be Sorted......\n";
-    //for(int i=0;i<n;i++)
-      //  cout<<a[i]<<" ";
+    cout<<"Array to be Sorted......\n";
+    for(int i=0;i<n;i++)
+        cout<<a[i]<<" ";
     for(i=1;i<n;i++)
     {
         key=a[i];
